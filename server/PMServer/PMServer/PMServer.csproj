@@ -43,8 +43,22 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.6.4\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
     <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -80,17 +94,75 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DAC\PM.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>PM.Context.cs</LastGenOutput>
+      <DependentUpon>PM.edmx</DependentUpon>
+    </Content>
+    <Content Include="DAC\PM.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PM.edmx</DependentUpon>
+      <LastGenOutput>PM.cs</LastGenOutput>
+    </Content>
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="BC\ProjectBC.cs" />
+    <Compile Include="BC\TaskBC.cs" />
+    <Compile Include="BC\UserBC.cs" />
+    <Compile Include="Controllers\ProjectController.cs" />
+    <Compile Include="Controllers\TaskController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="DAC\ParentTask.cs">
+      <DependentUpon>PM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAC\PM.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PM.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAC\PM.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAC\PM.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PM.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DAC\Project.cs">
+      <DependentUpon>PM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAC\Task.cs">
+      <DependentUpon>PM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAC\User.cs">
+      <DependentUpon>PM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Filters\ProjectManagerExceptionFilter.cs" />
+    <Compile Include="Filters\ProjectManagerTransactionFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\JSendResponse.cs" />
+    <Compile Include="Models\ParentTask.cs" />
+    <Compile Include="Models\Project.cs" />
+    <Compile Include="Models\Task.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\LoggingUtility.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EntityDeploy Include="DAC\PM.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PM.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="DAC\PM.edmx.diagram">
+      <DependentUpon>PM.edmx</DependentUpon>
+    </Content>
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -101,8 +173,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
+    <Folder Include="Logs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
