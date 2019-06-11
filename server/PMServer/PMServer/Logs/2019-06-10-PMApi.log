@@ -1,0 +1,320 @@
+2019-06-10 12:57:15.8110|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000016-0000-f700-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 12:57:20.8241|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000000c-0003-f900-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 12:57:47.0762|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000003-0003-f800-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 12:58:12.7467|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000005-0003-f800-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 12:59:27.5040|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000018-0000-f700-b63f-84710c7967bbMethod: POSTURL: http://localhost:49803/api/user/addController : PMServer.Controllers.UserController
+Action : InsertUserDetails
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 12:59:41.4990|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000012-0002-fe00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:04:03.7548|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000004-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:04:03.7878|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000004-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:04:38.7258|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000007-0003-f800-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:04:38.7448|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000007-0003-f800-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:04:54.8448|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000001a-0000-f700-b63f-84710c7967bbMethod: POSTURL: http://localhost:49803/api/user/addController : PMServer.Controllers.UserController
+Action : InsertUserDetails
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:04:54.8448|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000001a-0000-f700-b63f-84710c7967bbMethod: POSTURL: http://localhost:49803/api/user/addController : PMServer.Controllers.UserController
+Action : InsertUserDetails
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:04:55.0047|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000006-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:04:55.0047|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000006-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:13:09.0894|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000014-0002-fe00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:13:09.0894|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000014-0002-fe00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:19:04.8715|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000001e-0002-fe00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:19:04.9005|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000001e-0002-fe00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:19:45.1894|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000020-0000-f700-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:19:45.1894|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000020-0000-f700-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:19:49.5856|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000016-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:19:49.6046|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000016-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:20:01.5333|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000020-0002-fe00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:20:01.5553|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000020-0002-fe00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:25:46.0004|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000001e-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:25:46.0004|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000001e-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:25:47.0924|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000020-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:25:47.0924|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000002-0001-fa00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:25:47.0924|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000020-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:25:47.0924|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000002-0001-fa00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:26:02.7551|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000024-0000-f700-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:26:02.7551|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000007-0000-f600-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:26:02.7551|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000024-0000-f700-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:26:02.7641|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000007-0000-f600-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:28:06.4809|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000009-0000-f600-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:28:06.4839|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000009-0000-f600-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:28:06.7929|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000015-0003-f900-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:28:06.7929|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000015-0003-f900-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:28:28.7746|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000004-0001-fa00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:28:28.7746|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000004-0001-fa00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:28:38.4621|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000017-0003-f900-b63f-84710c7967bbMethod: POSTURL: http://localhost:49803/api/user/addController : PMServer.Controllers.UserController
+Action : InsertUserDetails
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:28:38.4621|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000017-0003-f900-b63f-84710c7967bbMethod: POSTURL: http://localhost:49803/api/user/addController : PMServer.Controllers.UserController
+Action : InsertUserDetails
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:28:38.8051|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000000b-0000-f600-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:28:38.8051|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000000b-0000-f600-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:29:05.6231|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000006-0001-fa00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:29:05.6281|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000006-0001-fa00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:29:05.6281|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000022-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:29:05.6461|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000022-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:29:19.7290|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000024-0001-fc00-b63f-84710c7967bbMethod: POSTURL: http://localhost:49803/api/project/addController : PMServer.Controllers.ProjectController
+Action : InsertProjectDetails
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:29:19.7290|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000024-0001-fc00-b63f-84710c7967bbMethod: POSTURL: http://localhost:49803/api/project/addController : PMServer.Controllers.ProjectController
+Action : InsertProjectDetails
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:29:19.9670|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000026-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:29:19.9690|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000026-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:29:20.1288|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000028-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:29:20.1288|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000028-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:30:03.4738|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000002a-0001-fc00-b63f-84710c7967bbMethod: POSTURL: http://localhost:49803/api/project/updateController : PMServer.Controllers.ProjectController
+Action : UpdateProjectDetails
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:30:03.4738|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000002a-0001-fc00-b63f-84710c7967bbMethod: POSTURL: http://localhost:49803/api/project/updateController : PMServer.Controllers.ProjectController
+Action : UpdateProjectDetails
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:30:03.7138|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000000d-0000-f600-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:30:03.7138|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000000d-0000-f600-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:30:03.8419|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000002c-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:30:03.8449|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000002c-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:30:21.7525|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000002e-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:30:21.7525|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000002e-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:31:45.9415|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000030-0001-fc00-b63f-84710c7967bbMethod: POSTURL: http://localhost:49803/api/task/addController : PMServer.Controllers.TaskController
+Action : InsertTaskDetails
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:31:45.9415|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000030-0001-fc00-b63f-84710c7967bbMethod: POSTURL: http://localhost:49803/api/task/addController : PMServer.Controllers.TaskController
+Action : InsertTaskDetails
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:32:23.3569|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000019-0003-f900-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:32:23.3609|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000019-0003-f900-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:32:30.2059|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000001b-0003-f900-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/task?projectId=1Controller : PMServer.Controllers.TaskController
+Action : RetrieveTaskByProjectId
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:32:30.2059|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000001b-0003-f900-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/task?projectId=1Controller : PMServer.Controllers.TaskController
+Action : RetrieveTaskByProjectId
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:33:27.8167|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000022-0002-fe00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/task/parentController : PMServer.Controllers.TaskController
+Action : RetrieveParentTasks
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:33:27.8167|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000022-0002-fe00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/task/parentController : PMServer.Controllers.TaskController
+Action : RetrieveParentTasks
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:33:41.3994|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000032-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:33:41.4074|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000032-0001-fc00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:33:54.0629|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000000f-0000-f600-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:33:54.0629|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 8000000f-0000-f600-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:33:58.1346|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000011-0000-f600-b63f-84710c7967bbMethod: POSTURL: http://localhost:49803/api/task/addController : PMServer.Controllers.TaskController
+Action : InsertTaskDetails
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:33:58.1346|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000011-0000-f600-b63f-84710c7967bbMethod: POSTURL: http://localhost:49803/api/task/addController : PMServer.Controllers.TaskController
+Action : InsertTaskDetails
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:34:00.7428|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000024-0002-fe00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:34:00.7428|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000024-0002-fe00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:34:04.2461|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000013-0000-f600-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/task?projectId=1Controller : PMServer.Controllers.TaskController
+Action : RetrieveTaskByProjectId
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-10 13:34:04.2461|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000013-0000-f600-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/task?projectId=1Controller : PMServer.Controllers.TaskController
+Action : RetrieveTaskByProjectId
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
