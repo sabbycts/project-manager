@@ -286,3 +286,27 @@ Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayC
 Action : RetrieveTaskByProjectId
 Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
 
+2019-06-11 14:16:36.3401|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000002-0001-fa00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-11 14:16:36.3754|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000002-0001-fa00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-11 14:16:39.6824|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000012-0000-ff00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-11 14:16:39.6824|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000012-0000-ff00-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/userController : PMServer.Controllers.UserController
+Action : GetUser
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-11 14:16:39.6824|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000004-0002-f900-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+
+2019-06-11 14:16:39.7184|INFO|PMServer.Utils.LoggingUtility|Operation Result Format: JSONRequest ID: 80000004-0002-f900-b63f-84710c7967bbMethod: GETURL: http://localhost:49803/api/projectController : PMServer.Controllers.ProjectController
+Action : RetrieveProjects
+Action Parameters : System.Web.Http.Tracing.ITraceWriterExtensions+<>c__DisplayClass14_0
+

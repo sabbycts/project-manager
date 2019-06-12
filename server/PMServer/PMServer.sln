@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMServer", "PMServer\PMServ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMServerTest", "PMServerTest\PMServerTest.csproj", "{D6B531B2-A201-427A-9C10-6735B9402ED8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMServerLoadTest", "PMServerLoadTest\PMServerLoadTest.csproj", "{C795E1D5-5615-4F03-A24F-2D40A5713F9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A6F1332A-2A3D-4073-AFE9-65E2423FA0A2}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,10 @@ Global
 		{D6B531B2-A201-427A-9C10-6735B9402ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6B531B2-A201-427A-9C10-6735B9402ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6B531B2-A201-427A-9C10-6735B9402ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C795E1D5-5615-4F03-A24F-2D40A5713F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C795E1D5-5615-4F03-A24F-2D40A5713F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C795E1D5-5615-4F03-A24F-2D40A5713F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C795E1D5-5615-4F03-A24F-2D40A5713F9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
