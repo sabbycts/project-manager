@@ -1,0 +1,11 @@
+commit 339155fef77b65392797cb8793b7cd11f809ad04
+tree 565a52efb5de441b8a0ab036bbeb979ce4c65d02
+parent 7d0d36104e87f2869d23d7bdc75db96250e082bb
+author sabbycts <51476373+sabbycts@users.noreply.github.com> 2019-06-13 13:49:36 +0530
+committer sabbycts <51476373+sabbycts@users.noreply.github.com> 2019-06-13 13:49:36 +0530
+
+    update project file
+
+
+
+:100644 100644 33d5eca8e48eaba9fa9e8aabd2a632c7797d72c8 0fe35fd600b425f2b2c6e642b6c19703acdd9f5b M	server/PMServer/PMServerTest/PMServerTest.csproj

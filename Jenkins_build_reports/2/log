@@ -1,0 +1,28 @@
+Started by user unknown or anonymous
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\FSE_PM
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/sabbycts/project-manager.git # timeout=10
+Fetching upstream changes from https://github.com/sabbycts/project-manager.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/sabbycts/project-manager.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 7d0d36104e87f2869d23d7bdc75db96250e082bb (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 7d0d36104e87f2869d23d7bdc75db96250e082bb
+Commit message: "load test report"
+ > git.exe rev-list --no-walk 7d0d36104e87f2869d23d7bdc75db96250e082bb # timeout=10
+Path To MSBuild.exe: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe
+Executing the command cmd.exe /C " chcp 1252 & C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe /p:VisualStudioVersion=10.0 {workspace}\server\PMServer\PMServer.sln " && exit %%ERRORLEVEL%% from C:\Program Files (x86)\Jenkins\workspace\FSE_PM
+[FSE_PM] $ cmd.exe /C " chcp 1252 & C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe /p:VisualStudioVersion=10.0 {workspace}\server\PMServer\PMServer.sln " && exit %%ERRORLEVEL%%
+Active code page: 1252
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+[8mha:////4I8OAxh0ISaACEvDkbomC4pRM/Sisk8eJOCp4KB797vXAAAAZR+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUS7FhXlF/nll6RqTW873+akuJiJgaGiiEEKqis5P684PydVzxlCgxQyQAAjSGEBAFZoBDtlAAAA[0mMSBUILD : error MSB1009: Project file does not exist.
+Switch: {workspace}\server\PMServer\PMServer.sln
+Build step 'Build a Visual Studio project or solution using MSBuild' marked build as failure
+Finished: FAILURE

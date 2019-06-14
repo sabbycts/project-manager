@@ -1,0 +1,248 @@
+Started by user unknown or anonymous
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\FSE_PM
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/sabbycts/project-manager.git # timeout=10
+Fetching upstream changes from https://github.com/sabbycts/project-manager.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/sabbycts/project-manager.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 339155fef77b65392797cb8793b7cd11f809ad04 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 339155fef77b65392797cb8793b7cd11f809ad04
+Commit message: "update project file"
+ > git.exe rev-list --no-walk 7d0d36104e87f2869d23d7bdc75db96250e082bb # timeout=10
+Path To MSBuild.exe: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe
+Executing the command cmd.exe /C " chcp 1252 & C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe /p:VisualStudioVersion=10.0 "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer.sln" " && exit %%ERRORLEVEL%% from C:\Program Files (x86)\Jenkins\workspace\FSE_PM
+[FSE_PM] $ cmd.exe /C " chcp 1252 & C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe /p:VisualStudioVersion=10.0 "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer.sln" " && exit %%ERRORLEVEL%%
+Active code page: 1252
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+Build started 13-06-2019 13:48:29.
+Project "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer.sln" on node 1 (default targets).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer.sln" (1) is building "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer\PMServer.csproj" (2) on node 1 (default targets).
+Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+EntityDeployNonEmbeddedResources:
+Skipping target "EntityDeployNonEmbeddedResources" because it has no outputs.
+EntityDeployEmbeddedResources:
+Skipping target "EntityDeployEmbeddedResources" because all output files are up-to-date with respect to the input files.
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\PMServer.dll" to "bin\PMServer.dll".
+  PMServer -> C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer\bin\PMServer.dll
+  Copying file from "obj\Debug\PMServer.pdb" to "bin\PMServer.pdb".
+Done Building Project "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer\PMServer.csproj" (default targets).
+Project "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer.sln" (1) is building "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServerTest\PMServerTest.csproj" (3) on node 1 (default targets).
+Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+Project "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServerTest\PMServerTest.csproj" (3) is building "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer\PMServer.csproj" (2:3) on node 1 (GetNativeManifest target(s)).
+Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+Done Building Project "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer\PMServer.csproj" (GetNativeManifest target(s)).
+[8mha:////4GCBK9fcHfxFY2l6MRI6roybTgSSsplUaqhJ8bU1DmaxAAAAZx+LCAAAAAAAAP9b85aBtbiIQTOjNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUSHJxblZeal++WXpP65vH32HJ1TQkwMDBVFDFJQfcn5ecX5Oal6zhAapJABAhhBCgsAtVBXn2cAAAA=[0mC:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3247: Found conflicts between different versions of the same dependent assembly. [C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServerTest\PMServerTest.csproj]
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Castle.Core.4.3.1\lib\net45\Castle.Core.dll" /reference:"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll" /reference:"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll" /reference:"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\MSTest.TestFramework.1.3.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll" /reference:"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\MSTest.TestFramework.1.3.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" /reference:"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Moq.4.10.0\lib\net45\Moq.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\mscorlib.dll" /reference:"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll" /reference:"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\NUnit.3.11.0\lib\net45\nunit.framework.dll" /reference:"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer\bin\PMServer.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.ComponentModel.DataAnnotations.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Configuration.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Net.Http.dll" /reference:"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Microsoft.AspNet.WebApi.Client.5.2.4\lib\net45\System.Net.Http.Formatting.dll" /reference:"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\System.Runtime.CompilerServices.Unsafe.4.5.0\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll" /reference:"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\System.Threading.Tasks.Extensions.4.5.1\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll" /reference:"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll" /reference:"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Microsoft.AspNet.WebApi.Core.5.2.4\lib\net45\System.Web.Http.dll" /reference:"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Microsoft.AspNet.WebApi.WebHost.5.2.4\lib\net45\System.Web.Http.WebHost.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Collections.Concurrent.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Collections.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.ComponentModel.Annotations.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.ComponentModel.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.ComponentModel.EventBasedAsync.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Diagnostics.Contracts.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Diagnostics.Debug.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Diagnostics.Tools.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Diagnostics.Tracing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Dynamic.Runtime.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Globalization.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.IO.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Linq.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Linq.Expressions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Linq.Parallel.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Linq.Queryable.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Net.NetworkInformation.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Net.Primitives.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Net.Requests.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Net.WebHeaderCollection.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.ObjectModel.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Reflection.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Reflection.Emit.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Reflection.Emit.ILGeneration.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Reflection.Emit.Lightweight.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Reflection.Extensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Reflection.Primitives.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Resources.ResourceManager.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Runtime.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Runtime.Extensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Runtime.Handles.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Runtime.InteropServices.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Runtime.Numerics.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Runtime.Serialization.Json.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Runtime.Serialization.Primitives.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Runtime.Serialization.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Security.Principal.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.ServiceModel.Duplex.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.ServiceModel.Http.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.ServiceModel.NetTcp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.ServiceModel.Primitives.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.ServiceModel.Security.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Text.Encoding.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Text.Encoding.Extensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Text.RegularExpressions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Threading.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Threading.Tasks.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Threading.Tasks.Parallel.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Threading.Timer.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Xml.ReaderWriter.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Xml.XDocument.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Xml.XmlSerializer.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\PMServerTest.dll /subsystemversion:6.00 /target:library /utf8output MockProjectManagerEntities.cs ProjectControllerTest.cs Properties\AssemblyInfo.cs TaskControllerTest.cs TestDbSet.cs UserControllerTest.cs "C:\Windows\TEMP\.NETFramework,Version=v4.6.1.AssemblyAttributes.cs"
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Castle.Core.4.3.1\lib\net45\Castle.Core.dll" to "bin\Debug\Castle.Core.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll" to "bin\Debug\EntityFramework.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll" to "bin\Debug\EntityFramework.SqlServer.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\MSTest.TestFramework.1.3.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll" to "bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\MSTest.TestFramework.1.3.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" to "bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Moq.4.10.0\lib\net45\Moq.dll" to "bin\Debug\Moq.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll" to "bin\Debug\Newtonsoft.Json.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\NUnit.3.11.0\lib\net45\nunit.framework.dll" to "bin\Debug\nunit.framework.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer\bin\PMServer.dll" to "bin\Debug\PMServer.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Microsoft.AspNet.WebApi.Client.5.2.4\lib\net45\System.Net.Http.Formatting.dll" to "bin\Debug\System.Net.Http.Formatting.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\System.Runtime.CompilerServices.Unsafe.4.5.0\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll" to "bin\Debug\System.Runtime.CompilerServices.Unsafe.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\System.Threading.Tasks.Extensions.4.5.1\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll" to "bin\Debug\System.Threading.Tasks.Extensions.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll" to "bin\Debug\System.ValueTuple.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Microsoft.AspNet.WebApi.Core.5.2.4\lib\net45\System.Web.Http.dll" to "bin\Debug\System.Web.Http.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Microsoft.AspNet.WebApi.WebHost.5.2.4\lib\net45\System.Web.Http.WebHost.dll" to "bin\Debug\System.Web.Http.WebHost.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer\bin\NLog.dll" to "bin\Debug\NLog.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer\bin\PMServer.pdb" to "bin\Debug\PMServer.pdb".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Castle.Core.4.3.1\lib\net45\Castle.Core.xml" to "bin\Debug\Castle.Core.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.xml" to "bin\Debug\EntityFramework.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.xml" to "bin\Debug\EntityFramework.SqlServer.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\MSTest.TestFramework.1.3.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.xml" to "bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\MSTest.TestFramework.1.3.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" to "bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Moq.4.10.0\lib\net45\Moq.pdb" to "bin\Debug\Moq.pdb".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Moq.4.10.0\lib\net45\Moq.xml" to "bin\Debug\Moq.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.xml" to "bin\Debug\Newtonsoft.Json.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\NUnit.3.11.0\lib\net45\nunit.framework.pdb" to "bin\Debug\nunit.framework.pdb".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\NUnit.3.11.0\lib\net45\nunit.framework.xml" to "bin\Debug\nunit.framework.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Microsoft.AspNet.WebApi.Client.5.2.4\lib\net45\System.Net.Http.Formatting.xml" to "bin\Debug\System.Net.Http.Formatting.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\System.Runtime.CompilerServices.Unsafe.4.5.0\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.xml" to "bin\Debug\System.Runtime.CompilerServices.Unsafe.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\System.Threading.Tasks.Extensions.4.5.1\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.xml" to "bin\Debug\System.Threading.Tasks.Extensions.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.xml" to "bin\Debug\System.ValueTuple.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Microsoft.AspNet.WebApi.Core.5.2.4\lib\net45\System.Web.Http.xml" to "bin\Debug\System.Web.Http.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\Microsoft.AspNet.WebApi.WebHost.5.2.4\lib\net45\System.Web.Http.WebHost.xml" to "bin\Debug\System.Web.Http.WebHost.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer\bin\NLog.xml" to "bin\Debug\NLog.xml".
+_CopyOutOfDateSourceItemsToOutputDirectory:
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\MSTest.TestAdapter.1.3.2\build\_common\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" to "bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\MSTest.TestAdapter.1.3.2\build\_common\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" to "bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\packages\MSTest.TestAdapter.1.3.2\build\_common\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" to "bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll".
+_CopyAppConfigFile:
+  Copying file from "App.config" to "bin\Debug\PMServerTest.dll.config".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\PMServerTest.dll" to "bin\Debug\PMServerTest.dll".
+  PMServerTest -> C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServerTest\bin\Debug\PMServerTest.dll
+  Copying file from "obj\Debug\PMServerTest.pdb" to "bin\Debug\PMServerTest.pdb".
+Done Building Project "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServerTest\PMServerTest.csproj" (default targets).
+Project "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer.sln" (1) is building "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServerLoadTest\PMServerLoadTest.csproj" (4) on node 1 (default targets).
+Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+ResolveAssemblyReferences:
+  Primary reference "Microsoft.VisualStudio.QualityTools.LoadTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+[8mha:////4GCBK9fcHfxFY2l6MRI6roybTgSSsplUaqhJ8bU1DmaxAAAAZx+LCAAAAAAAAP9b85aBtbiIQTOjNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUSHJxblZeal++WXpP65vH32HJ1TQkwMDBVFDFJQfcn5ecX5Oal6zhAapJABAhhBCgsAtVBXn2cAAAA=[0mC:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.VisualStudio.QualityTools.LoadTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServerLoadTest\PMServerLoadTest.csproj]
+          For SearchPath "C:\Program Files\Common Files\microsoft shared\VSTT\10.0\UITestExtensionPackages".
+          Considered "C:\Program Files\Common Files\microsoft shared\VSTT\10.0\UITestExtensionPackages\Microsoft.VisualStudio.QualityTools.LoadTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files\Common Files\microsoft shared\VSTT\10.0\UITestExtensionPackages\Microsoft.VisualStudio.QualityTools.LoadTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files\Common Files\microsoft shared\VSTT\10.0\UITestExtensionPackages\Microsoft.VisualStudio.QualityTools.LoadTestFramework.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Microsoft.VisualStudio.QualityTools.LoadTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Microsoft.VisualStudio.QualityTools.LoadTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Microsoft.VisualStudio.QualityTools.LoadTestFramework.exe", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\Microsoft.VisualStudio.QualityTools.LoadTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\Microsoft.VisualStudio.QualityTools.LoadTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\Microsoft.VisualStudio.QualityTools.LoadTestFramework.exe", but it didn't exist.
+          For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.6.1,AssemblyFoldersEx}".
+          Considered AssemblyFoldersEx locations.
+          For SearchPath "{AssemblyFolders}".
+          Considered "C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.VisualStudio.QualityTools.LoadTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.VisualStudio.QualityTools.LoadTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.VisualStudio.QualityTools.LoadTestFramework.exe", but it didn't exist.
+          Considered "C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.VisualStudio.QualityTools.LoadTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.VisualStudio.QualityTools.LoadTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.VisualStudio.QualityTools.LoadTestFramework.exe", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.VisualStudio.QualityTools.LoadTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.VisualStudio.QualityTools.LoadTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.VisualStudio.QualityTools.LoadTestFramework.exe", but it didn't exist.
+          Considered "C:\Program Files\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\bin\Microsoft.VisualStudio.QualityTools.LoadTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\bin\Microsoft.VisualStudio.QualityTools.LoadTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\bin\Microsoft.VisualStudio.QualityTools.LoadTestFramework.exe", but it didn't exist.
+          Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.VisualStudio.QualityTools.LoadTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.VisualStudio.QualityTools.LoadTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.VisualStudio.QualityTools.LoadTestFramework.exe", but it didn't exist.
+          Considered "C:\Program Files\Microsoft.NET\ADOMD.NET\110\Microsoft.VisualStudio.QualityTools.LoadTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files\Microsoft.NET\ADOMD.NET\110\Microsoft.VisualStudio.QualityTools.LoadTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files\Microsoft.NET\ADOMD.NET\110\Microsoft.VisualStudio.QualityTools.LoadTestFramework.exe", but it didn't exist.
+          For SearchPath "{GAC}".
+          Considered "Microsoft.VisualStudio.QualityTools.LoadTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Microsoft.VisualStudio.QualityTools.LoadTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Microsoft.VisualStudio.QualityTools.LoadTestFramework.winmd", but it didn't exist.
+          Considered "bin\Debug\Microsoft.VisualStudio.QualityTools.LoadTestFramework.dll", but it didn't exist.
+          Considered "bin\Debug\Microsoft.VisualStudio.QualityTools.LoadTestFramework.exe", but it didn't exist.
+  Primary reference "Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+[8mha:////4GCBK9fcHfxFY2l6MRI6roybTgSSsplUaqhJ8bU1DmaxAAAAZx+LCAAAAAAAAP9b85aBtbiIQTOjNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUSHJxblZeal++WXpP65vH32HJ1TQkwMDBVFDFJQfcn5ecX5Oal6zhAapJABAhhBCgsAtVBXn2cAAAA=[0mC:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServerLoadTest\PMServerLoadTest.csproj]
+          For SearchPath "C:\Program Files\Common Files\microsoft shared\VSTT\10.0\UITestExtensionPackages".
+          Considered "C:\Program Files\Common Files\microsoft shared\VSTT\10.0\UITestExtensionPackages\Microsoft.VisualStudio.QualityTools.WebTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files\Common Files\microsoft shared\VSTT\10.0\UITestExtensionPackages\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files\Common Files\microsoft shared\VSTT\10.0\UITestExtensionPackages\Microsoft.VisualStudio.QualityTools.WebTestFramework.exe", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Microsoft.VisualStudio.QualityTools.WebTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Microsoft.VisualStudio.QualityTools.WebTestFramework.exe", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\Microsoft.VisualStudio.QualityTools.WebTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\Microsoft.VisualStudio.QualityTools.WebTestFramework.exe", but it didn't exist.
+          For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.6.1,AssemblyFoldersEx}".
+          Considered AssemblyFoldersEx locations.
+          For SearchPath "{AssemblyFolders}".
+          Considered "C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.VisualStudio.QualityTools.WebTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.VisualStudio.QualityTools.WebTestFramework.exe", but it didn't exist.
+          Considered "C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.VisualStudio.QualityTools.WebTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.VisualStudio.QualityTools.WebTestFramework.exe", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.VisualStudio.QualityTools.WebTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.VisualStudio.QualityTools.WebTestFramework.exe", but it didn't exist.
+          Considered "C:\Program Files\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\bin\Microsoft.VisualStudio.QualityTools.WebTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\bin\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\bin\Microsoft.VisualStudio.QualityTools.WebTestFramework.exe", but it didn't exist.
+          Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.VisualStudio.QualityTools.WebTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.VisualStudio.QualityTools.WebTestFramework.exe", but it didn't exist.
+          Considered "C:\Program Files\Microsoft.NET\ADOMD.NET\110\Microsoft.VisualStudio.QualityTools.WebTestFramework.winmd", but it didn't exist.
+          Considered "C:\Program Files\Microsoft.NET\ADOMD.NET\110\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll", but it didn't exist.
+          Considered "C:\Program Files\Microsoft.NET\ADOMD.NET\110\Microsoft.VisualStudio.QualityTools.WebTestFramework.exe", but it didn't exist.
+          For SearchPath "{GAC}".
+          Considered "Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.winmd", but it didn't exist.
+          Considered "bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll", but it didn't exist.
+          Considered "bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.exe", but it didn't exist.
+  AssemblyFoldersEx location: "{Registry:Software\Microsoft\.NETFramework,v4.6.1,AssemblyFoldersEx}"
+          C:\Program Files (x86)\Microsoft.NET\Primary Interop Assemblies\
+          C:\Program Files\Reference Assemblies\Microsoft\Workflow Manager\1.0\
+          
+          
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.9\bin\plugins\Diagnostics\
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.9\ref\Caching\
+          C:\Program Files (x86)\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\Office15\
+          C:\Program Files (x86)\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\Office14\
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\ReferenceAssemblies\v4.0\
+          C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Tasks
+          C:\Program Files (x86)\Microsoft SQL Server\110\DTS\PipelineComponents\
+          C:\Program Files (x86)\Microsoft SQL Server\110\DTS\ForEachEnumerators
+          C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Connections\
+          C:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\ReportViewer\
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PublicAssemblies\
+          C:\Program Files (x86)\Microsoft.NET\Primary Interop Assemblies\
+          C:\Program Files (x86)\Open XML SDK\V2.5\lib
+          C:\Program Files\Reference Assemblies\Microsoft\Microsoft Identity Extensions\1.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\ReferenceAssemblies\v2.0\
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.9\ref
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\ReportViewer\
+          C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\\PublicAssemblies
+          C:\Program Files (x86)\Microsoft Chart Controls\Assemblies
+          C:\Program Files\Microsoft SQL Server\110\DTS\Tasks
+          C:\Program Files\Microsoft SQL Server\110\DTS\PipelineComponents\
+          C:\Program Files\Microsoft SQL Server\110\DTS\ForEachEnumerators
+          C:\Program Files\Microsoft SQL Server\110\DTS\Connections\
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.9\ref
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+_CopyOutOfDateSourceItemsToOutputDirectoryAlways:
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServerLoadTest\LoadTest1.loadtest" to "bin\Debug\LoadTest1.loadtest".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\PMServerLoadTest.dll" to "bin\Debug\PMServerLoadTest.dll".
+  PMServerLoadTest -> C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServerLoadTest\bin\Debug\PMServerLoadTest.dll
+  Copying file from "obj\Debug\PMServerLoadTest.pdb" to "bin\Debug\PMServerLoadTest.pdb".
+Done Building Project "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServerLoadTest\PMServerLoadTest.csproj" (default targets).
+Done Building Project "C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer.sln" (default targets).
+
+Build succeeded.
+
+"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer.sln" (default target) (1) ->
+"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServerTest\PMServerTest.csproj" (default target) (3) ->
+(ResolveAssemblyReferences target) -> 
+[8mha:////4GCBK9fcHfxFY2l6MRI6roybTgSSsplUaqhJ8bU1DmaxAAAAZx+LCAAAAAAAAP9b85aBtbiIQTOjNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUSHJxblZeal++WXpP65vH32HJ1TQkwMDBVFDFJQfcn5ecX5Oal6zhAapJABAhhBCgsAtVBXn2cAAAA=[0m  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3247: Found conflicts between different versions of the same dependent assembly. [C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServerTest\PMServerTest.csproj]
+
+
+"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServer.sln" (default target) (1) ->
+"C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServerLoadTest\PMServerLoadTest.csproj" (default target) (4) ->
+[8mha:////4GCBK9fcHfxFY2l6MRI6roybTgSSsplUaqhJ8bU1DmaxAAAAZx+LCAAAAAAAAP9b85aBtbiIQTOjNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUSHJxblZeal++WXpP65vH32HJ1TQkwMDBVFDFJQfcn5ecX5Oal6zhAapJABAhhBCgsAtVBXn2cAAAA=[0m  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.VisualStudio.QualityTools.LoadTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServerLoadTest\PMServerLoadTest.csproj]
+[8mha:////4GCBK9fcHfxFY2l6MRI6roybTgSSsplUaqhJ8bU1DmaxAAAAZx+LCAAAAAAAAP9b85aBtbiIQTOjNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUSHJxblZeal++WXpP65vH32HJ1TQkwMDBVFDFJQfcn5ecX5Oal6zhAapJABAhhBCgsAtVBXn2cAAAA=[0m  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [C:\Program Files (x86)\Jenkins\workspace\FSE_PM\server\PMServer\PMServerLoadTest\PMServerLoadTest.csproj]
+
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.33
+Finished: SUCCESS
